@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2, 
+  "name": "bbli", 
+  "description": "zhe ci yi ding",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "https://*/*",
+    "http://*/*"
+  ],
+  "icons": {
+      "16": "A.png",
+      "32": "B.png",
+      "48": "OIP-C.png",
+      "64": "C.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "js": ["JQuery2.1.4.js","bbli.js"]
+    }
+  ],
+  "page_action": {
+    "default_name": "Hello bbli",
+    "default_icon": "OIP-C.png",
+    "default_popup": "/popup.html"
+  }
+}
