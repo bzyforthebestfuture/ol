@@ -1,0 +1,63 @@
+.popup-body {
+    width: 230px;
+}
+
+body {
+    color: #ffffff;
+    background: #2d2d2d;
+}
+
+.popup-btn {
+    height: 40px;
+    width: 170px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.popup-input {
+    width: 170px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #3c3c3c;
+    color: #ffffff;
+    border: #777777;
+}
+
+.div-btn {
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.small-background {
+    background-color: #3c3c3c;
+}
+
+
+/*已更换为switch按钮*/
+
+
+/*.setting-btn {*/
+
+
+/*    height: 39px;*/
+
+
+/*    width: 170px;*/
+
+
+/*}*/
+
+#settingPage .container .row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.threeText {
+    font-size: 15.5px;
+}
+
+.fourText {
+    font-size: 13px;
+}
