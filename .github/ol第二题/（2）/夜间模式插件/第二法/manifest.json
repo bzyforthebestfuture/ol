@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "olyejian",
+  "version": "1.0",
+  "description": "bilibili夜间模式的插件",
+  "icons": {
+      "16": "AA.png",
+      "48": "AA.png",
+      "128": "AA.png"
+  },
+  "browser_action": {
+      "default_icon": "AA.png",
+      "default_title": "bilibili小插件",
+      "default_popup": "/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "js": ["oll.js"]
+    }
+  ],
+  "permissions": [
+      "tabs",
+      "https://*/*",
+      "http://*/*"
+    ]
+}
