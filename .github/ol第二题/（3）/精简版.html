@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html> 
+    <head>        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+        <title>xpz播放器</title>
+       
+    </head>                  
+    <body>
+            <div>        
+                <video id="bofan" src="https://www.17sucai.com/preview/501914/2017-08-04/%E9%A1%B5%E9%9D%A2/media/mov_bbb.mp4" width="100%" autoplay controls></video>        
+            </div> 
+            <div style="text-align: center">        
+                    <button onclick="prep()">上一个视频</button>        
+                        <select onchange="videoS()" id="speedO">            
+                        <option value ="1">1</option>            
+                        <option value ="1.25">1.25</option>           
+                        <option value="1.5">1.5</option>            
+                        <option value="2">2</option>          
+                        </select>         
+                    <button onclick="next()">下一个视频</button>        
+            </div>        
+            <div class="edit" style="text-align: center;">
+                    <div>
+                        <div class="edit">
+                            <p class="msg">
+                                <input placeholder="说点什么吧？" class="content" type="text" />
+                            </p>
+                            <p class="btns">
+                                <input type="button" class="send" value="发送" />
+                                <input type="button" class="clear" value="清屏" />
+                            </p>
+                        </div>
+                        <!--<form>
+                            <input type="text" value="发点弹幕吧">
+                            <input type="submit" value="发送"
+                        </form>    >-->                        
+                    </div>
+
+                    <div>
+                        <a href="file:///C:/Users/20253/Desktop/openlab/%E7%AC%AC%E4%B8%89%E7%89%88.html">这里可以添加视频图片使用<img></img></a>
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>
